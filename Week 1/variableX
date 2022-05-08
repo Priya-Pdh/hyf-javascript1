@@ -1,1 +1,9 @@
-...
+//Declare a variable x and initialize it with an integer, using these exact steps:
+
+let x
+    console.log("my age is ${myAge}");
+   console.log(25)
+
+x=20
+console.log("my brother's age is ${brotherAge}");
+console.log(20)
