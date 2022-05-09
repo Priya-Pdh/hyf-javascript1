@@ -1,0 +1,11 @@
+const favoriteColors =[]
+console.log("my favorite colors")
+console.log("blue", "pink", "white")
+
+
+const favoriteAnimals= ["rabbit", "horse", "deer", "dolphin"]
+favoriteAnimals [3]
+
+
+favoriteAnimals [4] ="baby pig"
+console.log(favoriteAnimals)
