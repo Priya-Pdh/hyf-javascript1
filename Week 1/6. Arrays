@@ -1,11 +1,27 @@
+//using INDEX[0,1,2,3,4]
+
 const favoriteColors =[]
 console.log("my favorite colors")
 console.log("blue", "pink", "white")
 
 
 const favoriteAnimals= ["rabbit", "horse", "deer", "dolphin"]
-favoriteAnimals [3]
+console.log(favoriteAnimals)
 
 
 favoriteAnimals [4] ="baby pig"
+console.log(favoriteAnimals)
+
+
+// using PUSH() Function
+
+const favoriteColors = []
+console.log("my favorite colors")
+console.log("blue", "pink", "white")
+
+
+const favoriteAnimals = ["rabbit", "horse", "deer", "dolphin"]
+console.log(favoriteAnimals)
+
+favoriteAnimals.push("baby pig") 
 console.log(favoriteAnimals)
