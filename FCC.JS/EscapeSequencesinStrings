@@ -1,0 +1,32 @@
+
+Assign the following three lines of text into the single variable myStr using escape sequences.
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab (doesnot starts from the beginning of the line)
+\b	word boundary
+\f	form feed
+
+
+1.Code;
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+Result:
+FirstLine
+    \SecondLine
+ThirdLine
+
+2.Concatenating Strings with Plus Operator
+const myStr = "This is the start. " + "This is the end."; 
+
+Result: This is the first sentence. This is the second sentence.
+
+3.Concatenating Strings with the Plus Equals Operator
+
+let myStr = "This is the first sentence. ";
+ myStr += "This is the second sentence.";
+
+Result:This is the first sentence. This is the second sentence.
