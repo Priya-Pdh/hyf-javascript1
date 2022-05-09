@@ -1,0 +1,19 @@
+
+1.Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well!
+
+code:
+const myName = "Rabbit";
+const myStr = "My name is" + myName + "and I am well!";
+
+value: My name is Rabbit and I am well!
+
+
+
+2.Appending Variables to Strings
+
+code:
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+
+value: ourStr would have the value freeCodeCamp is awesome!.
