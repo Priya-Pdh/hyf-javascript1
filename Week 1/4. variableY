@@ -7,3 +7,14 @@ let y="Rose"
 
 console.log("favoriteFlower");
 console.log(y) 
+
+
+Result:
+'favoriteFood'
+'pizza'
+
+
+
+'favoriteFlower'
+'Rose'
+
