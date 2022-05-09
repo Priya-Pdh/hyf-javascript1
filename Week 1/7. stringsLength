@@ -1,0 +1,7 @@
+let myString = "this is a test"
+
+console.log(myString)
+
+const str = "this is a test. Answer:";
+
+console.log(`${str} ${str.length}`)
