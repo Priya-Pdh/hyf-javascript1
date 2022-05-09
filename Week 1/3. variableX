@@ -1,9 +1,19 @@
 //Declare a variable x and initialize it with an integer
 
-let myAge
-    console.log("my age is ${myAge}");
-   console.log("myAge")
+let x
+console.log("my age is "+x);
+console.log("myAge")
 
-let x=27
-console.log("my age is ${myAge}");
+x=27
+console.log("my age is "+x);
 console.log(x)
+
+
+
+Result:
+'my age is undefined'
+'myAge'
+
+27
+'my age is 27'
+27
