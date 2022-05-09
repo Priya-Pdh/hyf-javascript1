@@ -7,7 +7,7 @@ let a=z
 console.log(Math.round(z))
 
 
-let b=highestNum /* not working */
+let b=highestNum /* compare the two values and store the highest of the two in a new variable (not working)*/ 
 if (7.25 > 7){
   (highestNum= b);
 }
