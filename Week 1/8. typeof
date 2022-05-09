@@ -18,33 +18,33 @@ console.log(typeof b)
 console.log(typeof c)
 console.log(typeof d)
 
-if (typeof a===b) {
+if (typeof a=== typeof b) {
     console.log("SAME TYPE");
     }
 else {console.log("NOT SAME TYPE")
 }
-if (typeof a===c){
+if (typeof a=== typeof c){
     console.log("SAME TYPE");
     }
 else {console.log("NOT SAME TYPE")}
 
-if (typeof a===d){
+if (typeof a=== typeof d){
     console.log("SAME TYPE");
     }
-else {console.log("NOT SAME TYPE")}.  /* they are same type but it doesnot shows */
+else {console.log("NOT SAME TYPE")}
   
 
-if (typeof b===c){
+if (typeof b=== typeof c){
     console.log("SAME TYPE");
     }
 else {console.log("NOT SAME TYPE")}
 
-if (typeof b===d){
+if (typeof b=== typeof d){
     console.log("SAME TYPE");
     }
 else {console.log("NOT SAME TYPE")}
 
-if (typeof c===d){
+if (typeof c=== typeof d){
     console.log("SAME TYPE");
     }
 else {console.log("NOT SAME TYPE")}
