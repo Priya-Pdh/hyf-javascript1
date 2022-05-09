@@ -1,4 +1,4 @@
-Use Bracket Notation to Find the Last Character in a String
+1. Use Bracket Notation to Find the Last Character in a String
 
 In order to get the last letter of a string, you can subtract one from the string's length.
 
@@ -10,3 +10,8 @@ const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 
 lastLetter would have a value of the string a.
+
+
+
+2. Use Bracket Notation to Find the Nth-to-Last Character in a String
+same as up but if you want to find second last or third last, -2 or -3 must be used
