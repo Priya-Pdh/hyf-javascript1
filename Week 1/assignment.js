@@ -1,11 +1,10 @@
-1. 
+1. //Languages I know
 console.log("नमस्कार संसार") //Nepali
 console.log("Hello World")//English
 console.log("नमस्ते दुनिया")//Hindi
 console.log("Hej världen")//Swedish
 
 2.
-
 //Code with error: console.log('I'm awesome');
 
 //Solution:
@@ -38,15 +37,6 @@ let y="Rose"
 
 console.log("favoriteFlower");
 console.log(y) 
-
-
-Result:
-'favoriteFood'
-'pizza'
-
-'favoriteFlower'
-'Rose'
-
 
 5./* Round the number 7.25, to the nearest integer (i.e., whole number) */
 
@@ -162,3 +152,18 @@ console.log ("'7%3',it returns 1, as 3 goes into 7 twice, leaving 1 left over.")
 console.log("the result is the remainder after division of 7 with 3.")
 
 
+10.1 
+let multipleArray = [1,"water", 200 , "sun", "earth", 100, "moon"]
+console.log(multipleArray) 
+
+10.2 
+let x= 6/0
+let y= 10/0
+
+if (x===y) {
+  console.log("Infinites can be compared")
+} else {
+  console.log("Infinites cannot be compared")
+}
+10.3
+console.log ("the value of both x and y cannot be divided by 0, therefore value of both becomes equal")
