@@ -51,24 +51,20 @@ Result:
 5./* Round the number 7.25, to the nearest integer (i.e., whole number) */
 
 let z=7.25
-console.log("z")
+console.log(z)
 
 let a= z
 console.log(Math.round(z))
 
 
-let b = 7.25
-let highestNum = b; /* compare the two values and store the highest of the two in a new variable (not working)*/
-
-if (7.25 >= 7){
-  (highestNum=b);
-}
-
-else {
+let highestNum; /* compare the two values and store the highest of the two in a new variable */
+if (z > a){
+  (highestNum=z);
+} else {
   (highestNum=a);
 }
+console.log (highestNum)
 
-console.log ("highestNum")
 
 6. //using INDEX[0,1,2,3,4]
 
