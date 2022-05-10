@@ -128,7 +128,6 @@ if (typeof a=== typeof d){
     }
 else {console.log("NOT SAME TYPE")}
   
-
 if (typeof b=== typeof c){
     console.log("SAME TYPE");
     }
@@ -145,10 +144,10 @@ if (typeof c=== typeof d){
 else {console.log("NOT SAME TYPE")}
 
 9. 
-let x=7
-x=x%3
-console.log ("'%' is called remainder or also know as modulo")
-console.log ("'7%3',it returns 1, as 3 goes into 7 twice, leaving 1 left over.")
+let x = 7
+x = x % 3
+console.log ("'%' is called Remainder or also know as Modulo")
+console.log ("'7 % 3',it returns 1, as 3 goes into 7 twice, leaving 1 left over.")
 console.log("the result is the remainder after division of 7 with 3.")
 
 
