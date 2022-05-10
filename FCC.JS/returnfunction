@@ -14,7 +14,7 @@ plusThree takes an argument for num and returns a value equal to num + 3.
 
 1. Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value
 
-unction timesFive(num) {
+function timesFive(num) {
   return num * 5;
 }
 
