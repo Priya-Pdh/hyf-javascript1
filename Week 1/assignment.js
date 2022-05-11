@@ -165,4 +165,4 @@ if (x===y) {
   console.log("Infinites cannot be compared")
 }
 10.3
-console.log ("the value of both x and y cannot be divided by 0, therefore value of both becomes equal")
+console.log ("the value of both x and y both results infinite as both are divided by 0, therefore value of both becomes equal. Thus they are comparable")
