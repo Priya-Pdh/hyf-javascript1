@@ -1,0 +1,16 @@
+5./* Round the number 7.25, to the nearest integer (i.e., whole number) */
+
+let z=7.25
+console.log(z)
+
+let a= z
+console.log(Math.round(z))
+
+
+let highestNum; /* compare the two values and store the highest of the two in a new variable */
+if (z > a){
+  (highestNum=z);
+} else {
+  (highestNum=a);
+}
+console.log (highestNum)
