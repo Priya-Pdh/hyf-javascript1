@@ -1,0 +1,16 @@
+10.1 
+let multipleArray = [1,"water", 200 , "sun", "earth", 100, "moon"]
+console.log(multipleArray) 
+
+10.2 
+let x= 6/0
+let y= 10/0
+
+if (x===y) {
+  console.log("Infinites can be compared")
+} else {
+  console.log("Infinites cannot be compared")
+}
+10.3
+console.log ("the value of both x and y both results infinite as both are divided by 0, therefore value of both becomes equal. Thus they are comparable")
+
