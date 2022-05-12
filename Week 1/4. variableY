@@ -1,0 +1,9 @@
+4. //Declare a variable y and assign a string to it
+
+console.log("favoriteFood");
+console.log("pizza")
+
+let y="Rose"
+
+console.log("favoriteFlower");
+console.log(y) 
