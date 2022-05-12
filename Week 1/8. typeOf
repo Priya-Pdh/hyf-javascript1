@@ -1,0 +1,51 @@
+8. // typeof
+
+let a = 555;
+let b = "Hello world";
+let c = {name: "Priya", age:"27"};
+let d = 1234;
+
+console.log("value of a is:" +a)
+console.log("value of b is:" +b)
+console.log("value of c is:" +c)
+console.log("value of d is:" +d
+)
+console.log("type of a is number")
+console.log("type of b is string")
+console.log("type of c is object")
+console.log("type of d is number")
+
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
+console.log(typeof d)
+
+if (typeof a=== typeof b) {
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")
+}
+if (typeof a=== typeof c){
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")}
+
+if (typeof a=== typeof d){
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")}
+  
+if (typeof b=== typeof c){
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")}
+
+if (typeof b=== typeof d){
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")}
+
+if (typeof c=== typeof d){
+    console.log("SAME TYPE");
+    }
+else {console.log("NOT SAME TYPE")}
