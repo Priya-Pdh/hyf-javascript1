@@ -1,0 +1,9 @@
+// 7. making a list of vehicles creating a variable
+
+const vehiclesList = [
+  "motorbike", "caravan", "bike", "bus", "train", "scooter"
+]
+
+// 8. to get the 3rd item from the list count its index number and put in console.log
+
+console.log(vehiclesList[2])
