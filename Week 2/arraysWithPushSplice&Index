@@ -1,0 +1,32 @@
+let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+// 2.1 add "turtle" to the existing array 
+favoriteAnimals.push("turtle");
+
+//2.2 log new array
+console.log(favoriteAnimals)
+
+// 2.3 add "meerkat" between "blowfish" and "capricorn"
+
+favoriteAnimals.splice (1, 0, "meerkat");
+//2.4 console.log statement the new value of the array.
+console.log( "The new value of the array is: " + (favoriteAnimals) )
+
+//2.5 log new array
+console.log (favoriteAnimals)
+
+//2.6 log length of the array with message 'The array has a length of: '
+console.log("The array has the length of: " + (favoriteAnimals.length))
+
+//2.7 delete "giraffe" from the array using splice(targetedIndex and delete)
+favoriteAnimals.splice (3, 1);
+
+//2.8 log new array (which should be without giraffe)
+console.log(favoriteAnimals)
+
+//2.9 find the positions of the index in a array
+let index = favoriteAnimals.indexOf("meerkat");
+console.log(index)
+
+//2.10 log the index of "meerkat" with the statement 'The item you are looking for is at index: ' (here you should show the index of the item)
+
+console.log("The item you are looking for is at index: " + (index))
