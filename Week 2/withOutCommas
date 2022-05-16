@@ -1,0 +1,23 @@
+let myString = "hello,this,is,a,difficult,to,read,sentence";
+
+//console.log mystring
+
+console.log(myString)
+
+// to check the length use .length after the variable
+
+console.log(myString.length) 
+
+// to replace the ',' with 'space' declare a new variable and put .replaceAll(',' , '') after the old variable, 
+//in this case the previous variable is 'myString'. And finally, console.log(new variable)
+
+const withOutCommas = myString.replaceAll(',', ' ');
+
+console.log(withOutCommas)
+
+Result:
+'hello,this,is,a,difficult,to,read,sentence'
+
+42
+
+'hello this is a difficult to read sentence'
