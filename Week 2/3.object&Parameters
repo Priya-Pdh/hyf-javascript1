@@ -1,0 +1,16 @@
+//declare a object first and add some object properties and values
+
+let person = { 
+  "name": "Sita", 
+  "age": 27, 
+  "gender": "female"};
+  
+ //create an function which has the object as a parameter
+ 
+function object(person) {
+  return(person)
+}
+
+//print out all of object's properties and values
+
+object(person)
