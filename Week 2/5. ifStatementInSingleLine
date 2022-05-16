@@ -1,0 +1,3 @@
+// writting the if statement in a single line with console.log(...)
+
+console.log(3===3? "yes": "no")
