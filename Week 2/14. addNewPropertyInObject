@@ -1,0 +1,20 @@
+let myTeachers = {
+  "module1": {
+    "teacher": "Claudio"
+  },
+  "module2": {
+    "teacher": "Saif"
+  },
+  "module3": {
+  "teacher": "Sahin"
+}
+}
+console.log (myTeachers)
+
+// 14. add property to the object that contains the languages that we studied in different modules
+
+myTeachers.module1.language = "HTML";
+myTeachers.module2.language = "CSS";
+myTeachers.module3.language = "JavaScript";
+  
+console.log(myTeachers)
