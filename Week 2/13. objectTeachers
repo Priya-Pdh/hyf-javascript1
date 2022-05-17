@@ -1,0 +1,16 @@
+//Create an object that contains the teachers that you have had so far for the different modules.
+
+// 13. create an object that containes the teachers that we had in different modules
+
+let myTeachers = {
+  "module1": {
+    "teacher": "Claudio"
+  },
+  "module2": {
+    "teacher": "Saif"
+  },
+  "module3": {
+  "teacher": "Sahin"
+}
+}
+console.log (myTeachers)
