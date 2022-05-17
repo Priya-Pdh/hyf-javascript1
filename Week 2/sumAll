@@ -1,3 +1,16 @@
+
+// one way to sum the agruments
+
+function sumAgr(a, b, c) {
+  console.log(a + b + c)
+}
+sumAgr(1 , 2, 3)
+
+
+
+
+// another way to sum the arguments
+
 function sumAll() {
   let sum = 0;
   for(let i = 0; i < arguments.length; i++) {
