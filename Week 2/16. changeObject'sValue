@@ -1,0 +1,23 @@
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
+
+console.log (o1, o2, o3)
+
+// let change the value of the object foo in o2
+o2.foo = "motel"
+// log it to see the change in o2 and see if it affects the o3 or not
+console.log(o2)
+console.log(o3)
+console.log("Hence, it shows changing o2 changes o3")
+
+//let change o1
+o1.foo = "hotel"
+//log to see the change in o1 and see if it affects o3 or not
+console.log(o1)
+console.log(o3)
+console.log("Hence, it shows changing o1 donot changes o3")
+
+// Does the order that you assign (o3 = o2 or o2 = o3) matter?
+
+console.log("yes, the order that we assign (o3 = o2 or o2 = o3) matters because o3 is taking in the value of o2 ")
