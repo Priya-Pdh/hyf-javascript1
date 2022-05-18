@@ -31,8 +31,20 @@ output: 'a green new bike'
 
 //10.
 
+function advertisement() {
+  let advertisement = "Amazing Joe's Garage, we service ";
+  for (let i = 0; i < vehiclesList.length; i++) {
+    advertisement += vehiclesList[i]+ "s, ";
+  }
+return advertisement;
+} 
+console.log(advertisement())
 
-// 11:
+// 11. add one more vehicle to the list and see if it is added to the advertisement or not
+vehiclesList.push("ferry")
+console.log(vehiclesList)
+console.log(advertisement())
+
 
 
 
