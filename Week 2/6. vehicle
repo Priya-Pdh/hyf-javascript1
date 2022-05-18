@@ -1,0 +1,16 @@
+
+function vehicle(color, age, code){   
+  if (age !== 0) {
+  return "used";
+} 
+  if (code === 5) {
+  return "car";
+} else {
+  return "invalid vehicleType"
+} 
+return ("a" + color + age + code);
+  
+}
+vehicle()
+
+note: no giving expected result, it is only taking the first condition. even if i just call vehicleType(). output is “used”.
