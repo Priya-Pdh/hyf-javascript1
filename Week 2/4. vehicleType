@@ -1,0 +1,14 @@
+
+// Create a function named vehicleType that receives a color, and a code
+function vehicleType(color, code) {
+// now create a condition where code 1 is car and code 2 is motorbike
+   if (code === 1) {
+     return "car";
+   } if (code === 2) {
+    return "motorbike";
+   }
+  return "a " + color + " " + code; // return the parameters here
+}
+vehicleType("blue", 2 ); // finally call the function
+
+
