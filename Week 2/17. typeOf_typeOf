@@ -1,0 +1,9 @@
+What does the following code return? (And why?)
+
+let bar = 42;
+typeof typeof bar;
+
+//output: 'string'
+
+console.log( " The code returns 'string' although the value seems to be a number it is becuase in this case the front typeOf is used as a function and the next one acts as a parameter of the funcition")
+
