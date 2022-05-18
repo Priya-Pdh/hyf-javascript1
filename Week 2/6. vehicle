@@ -1,16 +1,26 @@
+// 6. Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
 
-function vehicle(color, age, code){   
+//first Create a function called vehicle
+
+function vehicle(color, age, code){ 
+
+// create a condition that shows the vechicle is used with certain number
+  
   if (age !== 0) {
-  return "used";
+  age = "used";
 } 
+// create another condition with code for car
+  
   if (code === 5) {
-  return "car";
+  code = "car";
 } else {
-  return "invalid vehicleType"
+  code = "invalid vehicleType"
 } 
-return ("a" + color + age + code);
+
+return ("a " + color + " " + age + " " + code);
   
 }
-vehicle()
+vehicle("blue", 1, 5)
 
-note: no giving expected result, it is only taking the first condition. even if i just call vehicleType(). output is “used”.
+
+output: 'a blue used car'
