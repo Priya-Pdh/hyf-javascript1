@@ -1,7 +1,8 @@
 //create a function colorCar that receives color as a parameter
 
 function colorCar(color){
-  return ("a "+ color + " car")}
+  return ("a "+ color + " car")
+  }
 //now call the colorCar and insert new color
-colorCar(["red"]);
+colorCar("red");
 
