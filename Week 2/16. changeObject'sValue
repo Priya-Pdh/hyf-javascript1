@@ -1,3 +1,13 @@
+/* Take a look at the following code:
+
+let o1 = { foo: "bar" };
+let o2 = { foo: "bar" };
+let o3 = o2;
+Show that changing o2 changes o3 (or not) and changing o1 changes o3(or not).
+
+Does the order that you assign (o3 = o2 or o2 = o3) matter?  */
+
+
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
 let o3 = o2;
@@ -21,3 +31,7 @@ console.log("Hence, it shows changing o1 donot changes o3")
 // Does the order that you assign (o3 = o2 or o2 = o3) matter?
 
 console.log("yes, the order does matter because computer reads the data from up to down i.e control flow. In this case o2 is declared before o3 so it is possible to assign o3 value as o2 i.e. o3 = o2 but it is not possible to assign o2 as value of o3 i.e o2 = o3")
+
+
+
+
