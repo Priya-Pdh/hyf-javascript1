@@ -30,15 +30,23 @@ vehicle("green", 3, 1 )
 output: 'a green new bike'
 
 //10.
+lets create a function called advertisement,
 
 function advertisement() {
   let advertisement = "Amazing Joe's Garage, we service ";
+  // using the for loop to create a condition so that the condition that adds the final vechicle in the list with "s. " at the end & "and" before that. also vechicles name are plural i.e add "s" to each of the list.
+  // so to do so we can create a statement that when i is at the last array advertisement adds `and ${vehiclesList[i]}s.` else in all other cases it adds `${vehiclesList[i]}s.
+  
   for (let i = 0; i < vehiclesList.length; i++) {
-    advertisement += vehiclesList[i]+ "s, ";
-  }
-return advertisement;
+    if (i == vehiclesList.length -1) {
+     advertisement += `and ${vehiclesList[i]}s.`;}
+    else {
+     advertisement += `${vehiclesList[i]}s, `;
+     }
+   }
+  return advertisement;
 } 
-console.log(advertisement())
+advertisement()
 
 // 11. add one more vehicle to the list and see if it is added to the advertisement or not
 vehiclesList.push("ferry")
