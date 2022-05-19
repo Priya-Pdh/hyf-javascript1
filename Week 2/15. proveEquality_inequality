@@ -1,0 +1,24 @@
+//15. Write some code to test two arrays for equality using == and ===. Test the following:
+
+let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = y;
+
+//What do you think will happen with x == y, x === y and z == y and z == x? Prove it!
+
+let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = y;
+
+console.log(x == y)
+console.log ("x is not equal to y")
+console.log(x === y)
+console.log ("x is not strongly equal to y")
+console.log( "x is not equal to y because both has their own value already been declared which is separetly stored in the memory of the computer, so even though their value is same they are not equal")
+console.log(z == y) 
+console.log ("z is equal to y")
+console.log ("z is equal to y becuase the value of z is not determined beforehand so it can take the value of y")
+console.log(z == x)
+console.log ("z is not equal to x")
+console.log ("As z has taken the value of y it cannot take the value of x, as z has already stored its value to be as y in the computer's memory")
+
