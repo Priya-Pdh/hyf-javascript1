@@ -10,15 +10,20 @@ let x = [1, 2, 3];
 let y = [1, 2, 3];
 let z = y;
 
-console.log(x == y)
-console.log ("x is not equal to y")
-console.log(x === y)
-console.log ("x is not strongly equal to y")
+console.log(x == y ? "Equal": "Not equal")
+// output: "Not equal"
+
+console.log(x === y ? "Equal": "Not equal")
+// output: "Not equal"
+
 console.log( "x is not equal to y because both has their own value already been declared which is separetly stored in the memory of the computer, so even though their value is same they are not equal")
-console.log(z == y) 
-console.log ("z is equal to y")
+
+console.log(z == y ? "Equal": "Not equal") 
+// output: "Equal"
 console.log ("z is equal to y becuase the value of z is not determined beforehand so it can take the value of y")
-console.log(z == x)
-console.log ("z is not equal to x")
+
+console.log(z == x ? "Equal": "Not equal")
+// output: "Not equal"
+
 console.log ("As z has taken the value of y it cannot take the value of x, as z has already stored its value to be as y in the computer's memory")
 
