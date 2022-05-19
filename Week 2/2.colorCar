@@ -1,4 +1,4 @@
-//create a function colorCar that receives color as a parameter
+//2.create a function colorCar that receives color as a parameter
 
 function colorCar(color){
   return ("a "+ color + " car")
