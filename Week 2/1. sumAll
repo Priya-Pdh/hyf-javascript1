@@ -20,3 +20,9 @@ function sumAll() {
   return sum;
 }
 sumAll(10, 100, 500);
+
+
+// Shortest way to solve the sumall method: clean code.
+Const sum = (a, b, c) => a+ b+ c;
+Sum (1, 2, 3);
+
