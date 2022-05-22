@@ -6,3 +6,12 @@ function colorCar(color){
 //now call the colorCar and insert new color
 colorCar("red");
 
+
+// Another method:
+
+const colorCar = (color) => {
+ console.log("a" + color +"car");
+ console.log(`a" + ${color} +"car`); 
+}
+colorCar("red");
+
