@@ -17,3 +17,25 @@ vehicleType("blue", 2 ); // finally call the function
 //output: 'a blue motorbike'
 
 
+
+// another method
+
+const vehicleType = (code, color) => {
+ if (code == 1) {
+     console.log(`a ${color} car`);
+   } else if (code == 2)  {
+   console.log(`a ${color} motobike`);
+   }  else {
+   console.log("invalid code");
+   }
+ } 
+   
+vehicleType("blue", 2 );
+
+
+// one line method:
+const vehicleType = (code, color) => {
+ code === 1 ? console.log(`a ${color} car`): console.log(`a ${color} motobike`);
+  } 
+  vehicleType("blue", 2 );
+
