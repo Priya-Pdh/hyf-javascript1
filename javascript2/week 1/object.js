@@ -17,10 +17,10 @@ fetch("https://www.breakingbadapi.com/api/characters")
       let myDiv = document.createElement('div');
       
       // creating HTML elements, adding texts in it and adding it to the page using appendChild method.
-      let name = document.createElement('h2');
-      name.innerText= data[i].name
-      myDiv.appendChild(name);
-
+      let characterName = document.createElement('h2');
+      characterName.innerText= data[i].name
+      myDiv.appendChild(characterName);
+      
       let images = document.createElement('img');
       images.src = data[i].img;
       
