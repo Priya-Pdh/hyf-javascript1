@@ -50,7 +50,7 @@ fetch("https://www.breakingbadapi.com/api/characters")
 
      // creating a function that shows the status of character
       buttonInput.addEventListener('click', function (e) {
-        alert('I am ' + data[i].status)
+        return('I am ' + data[i].status)
       })
     }
      
