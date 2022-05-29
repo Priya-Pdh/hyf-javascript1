@@ -1,3 +1,6 @@
+let bookTitles = ["harry_potter_chamber_secrets", "rich_dad_poor_dad", "alchemist", "think_and_grow_rich", "eat_pray_love", "barack_obama","pride_and_prejudice", "last_summer", "murakami","the_little_price"]
+
+console.log(bookTitles)
 
 fetch("https://www.breakingbadapi.com/api/characters")
   .then(res => res.json())
