@@ -146,7 +146,7 @@ booksObjects.book10.img = './images/10. little prince.jpeg'
       let bookRating = document.createElement("p")
       bookRating.innerHTML = 'Rating: ' + booksObjects[key].ratings
       
-      et buttonInput = document.createElement("button");
+      let buttonInput = document.createElement("button");
       buttonInput.innerText = "Price";
       
       buttonInput.addEventListener('click', function (e) {
