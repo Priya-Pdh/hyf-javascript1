@@ -8,6 +8,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 10px;
   padding-left: 100px;
+  padding-top: 30px;
   padding-bottom: 80px;
   border: solid black;
   
