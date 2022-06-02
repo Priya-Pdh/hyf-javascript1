@@ -55,7 +55,7 @@
     },
     book5: {
       "title": "eat_pray_love",
-      "language": "Mandarin",
+      "language": "English",
       "author": "Elizabeth Gilbert",
       "ratings": 10,
       "price" : 150
@@ -88,7 +88,7 @@
     },
     book9: {
       "title": "unfinished",
-      "language": "Hindi",
+      "language": "English",
       "author": "Priyanka Chopra Jonas",
       "ratings": 6,
       "price" : 100
@@ -96,7 +96,7 @@
     },
     book10: {
       "title": "the_little_price",
-      "language": "French",
+      "language": "English",
       "author": "Antoine De Saint-Exupery",
       "ratings": 7,
       "price" : 150
