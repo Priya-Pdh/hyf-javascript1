@@ -8,6 +8,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 10px;
   padding-left: 100px;
+  padding-bottom: 40px;
   border: solid black;
   
 }
@@ -45,7 +46,6 @@ li {
 .imageStyle:hover {
   transform: scale(1.5); 
 }
-
 
 button {
   width: 60px;
