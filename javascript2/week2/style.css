@@ -8,8 +8,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 10px;
   padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   border: solid black;
   
 }
@@ -57,4 +56,3 @@ button {
 button:hover {
   background-color: mediumaquamarine;
 }
-
