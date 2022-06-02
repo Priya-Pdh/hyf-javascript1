@@ -27,11 +27,14 @@ p{
 }
 
 ul {
-  color: green;
+  color: red;
   font-size: 20px;
   font-family: sans-serif;
 }
 
+li { 
+  color: black;
+}
 
 .imageStyle {
   width: 500px;
@@ -47,7 +50,7 @@ ul {
 button {
   width: 60px;
   height: 30px;
-  border-radius: 30px;
+  border-radius: 60px;
 }
 
 button:hover {
