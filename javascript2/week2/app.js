@@ -27,63 +27,80 @@
       "title": "harry_potter_chamber_secrets",
       "language": "English",
       "author": "Harry",
-      "ratings": 10
+      "ratings": 8,
+      "price" : 100
+    
     },
     book2: {
       "title": "rich_dad_poor_dad",
       "language": "English",
       "author": "Robert T. Kiyosaki",
-      "ratings": 10
+      "ratings": 10,
+      "price" : 200
     },
     book3: {
       "title": "alchemist",
       "language": "English",
       "author": "Paulo Coelho",
-      "ratings": 8
+      "ratings": 8,
+      "price" : 300
+    
     },
     book4: {
       "title": "think_and_grow_rich",
       "language": "English",
       "author": "Napoleon Hill",
-      "ratings": 9
-
+      "ratings": 9,
+       "price" : 250
     },
     book5: {
       "title": "eat_pray_love",
       "language": "Mandarin",
       "author": "Elizabeth Gilbert",
-      "ratings": 10
+      "ratings": 10,
+      "price" : 150
+    
     },
     book6: {
       "title": "barack_obama",
       "language": "English",
       "author": "Barack Obama",
-      "ratings": 7
+      "ratings": 7,
+      "price" : 300
+    
     },
     book7: {
       "title": "pride_and_prejudice",
       "language": "English",
       "author": "Jane Austen",
-      "ratings": 5
+      "ratings": 5,
+      "price" : 100
+    
 
     },
     book8: {
       "title": "after_lives",
       "language": "English",
       "author": "Abdulrazak Gurnah",
-      "ratings": 9
+      "ratings": 9,
+      "price" : 100
+    
     },
     book9: {
       "title": "unfinished",
       "language": "Hindi",
       "author": "Priyanka Chopra Jonas",
-      "ratings": 6
+      "ratings": 6,
+      "price" : 100
+    
     },
     book10: {
       "title": "the_little_price",
       "language": "French",
       "author": "Antoine De Saint-Exupery",
-      "ratings": 7
+      "ratings": 7,
+      "price" : 150
+    
     }
   }
 
@@ -112,13 +129,12 @@ booksObjects.book10.img = './images/10. little prince.jpeg'
       let myDiv = document.createElement("div");
 
       let bookName = document.createElement("h2");
-      bookName.innerHTML = booksObjects[key].title
+      bookName.innerHTML = booksObjects[key].title.replaceAll("_", " ")
+
 
       let bookImage = document.createElement("img")
       bookImage.setAttribute("class", "imageStyle")
       bookImage.src = booksObjects[key].img;
-
-
     
       let bookLanguage = document.createElement("p");
       bookLanguage.innerHTML = 'Language: ' + booksObjects[key].language
@@ -129,6 +145,14 @@ booksObjects.book10.img = './images/10. little prince.jpeg'
 
       let bookRating = document.createElement("p")
       bookRating.innerHTML = 'Rating: ' + booksObjects[key].ratings
+      
+      et buttonInput = document.createElement("button");
+      buttonInput.innerText = "Price";
+      
+      buttonInput.addEventListener('click', function (e) {
+        alert("ONLY " + booksObjects[key].price + " SEK")
+      }
+      )
    
       body.appendChild(myDiv)
       myDiv.appendChild(bookName);
@@ -136,6 +160,7 @@ booksObjects.book10.img = './images/10. little prince.jpeg'
       myDiv.appendChild(bookLanguage);
       myDiv.appendChild(bookAuthor);
       myDiv.appendChild(bookRating);
+      myDiv.appendChild(buttonInput);
 
     }
   }
@@ -144,39 +169,6 @@ booksObjects.book10.img = './images/10. little prince.jpeg'
   
   
   
-
-/*
-  Object.keys(booksObjects)
-
-function imgElements() {
-  let body = document.querySelector("body")
-  for (const bookImg in booksObjects) {
-    
-    let bookImage = document.createElement("img")
-    bookImage.setAttribute("class", "imageStyle")
-    bookImage.src = booksObjects[bookImg].img;
-
-    document.body.appendChild(bookImage);
-    
-  }
-}
-imgElements()
-     
-*/
-  
-  //1.8
-
-  //for (let key in booksObjects) {
-  //console.log(`${key}: ${booksObjects[key]}`);
-  //}
-  // creating img element and putting source of each book
-
-
-  /*
-  Object.keys(booksObjects).forEach(function (key, index) {
-    key = img
-     index = 
-  }) */
 
   
   
