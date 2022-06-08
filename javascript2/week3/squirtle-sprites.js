@@ -74,4 +74,3 @@ image6.src = pokemonData.sprites.back_shiny
   myDiv.appendChild(image6) 
   
 })
-
