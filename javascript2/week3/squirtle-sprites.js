@@ -15,7 +15,7 @@ const parent = document.querySelector("body")
 const myDiv = document.createElement("div")
 
 const heading1 = document.createElement("h1")
-heading1.innerText = "Pokemon Turning Game"
+heading1.innerText = "Pokemon Game"
 
 const heading2 = document.createElement("h2")
 heading2.innerText = pokemonData.name.toUpperCase()
