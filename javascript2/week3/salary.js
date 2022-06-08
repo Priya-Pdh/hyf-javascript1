@@ -39,13 +39,11 @@ const tuesday = [
   }
 ];
 
-const mondayEarning = monday.filter(workDurations =>(workDurations.duration>119)).map(workDurations => (workDurations.duration/60*20)).reduce((sum, workDurations) => "€" +(sum + workDurations).toFixed(2))
-console.log(mondayEarning)
+let workedHours = monday.concat(tuesday);
+//console.log(workedHours);
+let totalEarning = workedHours.filter(workDurations =>(workDurations.duration>119)).map(workDurations =>(workDurations.duration/60*20)).reduce((sum, arr) => (sum + arr), 0);
 
-const tuesdayEarning = tuesday.filter(workHours =>(workHours.duration>119)).map(workHours => (workHours.duration/60*20)).reduce((sum, workHours) => "€" +(sum + workHours).toFixed(2), 0)
-
-console.log(tuesdayEarning)
+console.log("€" + totalEarning);
 
 
-//result: €100
-//        €60
+//result: €160
