@@ -1,0 +1,25 @@
+div{
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+h1{
+  color: whitesmoke
+}
+
+h2{
+  color: blue;
+}
+
+button{
+  box-shadow: 3px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: whitesmoke;
+  width: 100px;
+  height: 50px;
+  
+}
+button:hover {
+  background-color: palevioletred;
+}
