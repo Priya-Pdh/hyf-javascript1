@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,300;1,500&family=Space+Mono&family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #F9F6F4;
+  --secondary-color: #C9A798;
+}
+
+.dark-theme {
+  --primary-color: darkgrey;
+  --secondary-color: white;
+}
+
+#moon-icon {
+  width: 30px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+#nav-bar {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: var(--primary-color)
+  
+}
+
+h1 {
+  text-align: start;
+  margin: 0 0 0 40px;
+}
+
+
+
+#nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  list-style: none;
+
+}
+
+#nav-list a {
+  text-decoration: none;
+}
+
+ .item {
+   border: #4F2412 0.1px solid;
+   margin: 10px 0 0 50px;
+   padding: 16px 35px 16px 16px;
+   border-radius: 35px;
+   width: 0.001em;
+ }
+
+.item:hover {
+  background-color: #4F2412;
+}
+
+
+
+#portfolio {
+  font-size: 40px;
+  padding: 10px;
+  color: #4F2412;
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from  {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+#intro-container {
+  background-image: url("./images/priya.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: var(--primary-color);
+  height: 646px;
+  
+}
+
+#short-intro {
+  padding: 250px 50px 50px 300px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  color: darkmagenta;
+}
+
+#container {
+  margin: 20px;
+  padding: 20px;
+}
+
+#download {
+  border: rgb(400, 181, 0) 1px solid;
+  margin: 10px 0 0 0;
+  padding: 16px 35px;
+  border-radius: 35px;
+  letter-spacing: 2px;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+#download:hover {
+  background-color: #4F2412;
+}
+
+#foo-website {
+  color: darkmagenta;
+  font-weight: bold;
+  
+  }
+
+#foo-website:hover {
+  text-decoration: underline;
+}
+
+/*personal bio*/
+#container2 {
+  display: flex;
+  gap: 100px;
+  background-color:#E9E0DB;
+  padding: 120px 20px 0 90px;
+  height: 713px;
+}
+
+#priya-pic {
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+}
+
+#right-side {
+  padding: 50px;
+  color: #4F2412;
+}
+
+#personal-bio {
+  font-size: 30px;
+}
+
+#personal-description {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  margin: 10px;
+  color: darkred;
+}
+
+.moreText {
+  display: none;
+}
+
+.read-more-button {
+  padding: 5px;
+  background-color: white;
+  border: #4F2412 0.1px solid;
+  border-radius: 35px;
+  letter-spacing: 2px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+.read-more-button {
+  padding: 10px;
+  background-color: #4F2412;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+
+
+
+/* My Projects*/
+#proj_heading {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding-top: 50px;
+  font-size: 30px;
+  color: darkgreen;
+}
+
+.proj-img {
+  width: 400px;
+  height: 200px;
+  border: 1px ridge lightgray;
+  border-right: hidden;
+  border-bottom: hidden;
+}
+.proj-img:hover {
+  opacity: 0.5;
+}
+
+#project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+  column-gap: 20px;
+  padding: 80px 150px 80px 230px;
+  background-color: var(--primary-color);
+  height: 550px;
+  
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+.img-text {
+  display: none;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.img:hover + .img-text {
+  display: block;
+  width: 400px;
+  height: 40px;
+  background-color: darkgreen;
+  color: var(--primary-color);
+}
+
+#skillContainer {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+
+#skills {
+  color: darkgreen;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 28px;
+  
+}
+
+#listContainer {
+  display: flex;
+  column-gap: 100px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+#listHTML {
+  color: orange;
+}
+
+#listCSS {
+  color: skyblue;
+}
+
+#listJavascript {
+  color: gold;
+}
+/*styling the educational part div*/
+#educational-background {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 60px;
+  padding: 0 0 80px 150px;
+  background-color:white;
+  color: maroon;
+  line-height: 1.5em;
+}
+
+#edu_heading {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  font-size: 30px;
+  color: darkred;
+}
+
+
+.logo-img {
+  width: 200px;
+  height: 200px;
+  border: 0.1px ridge maroon; 
+  border-left: hidden;
+  border-top: hidden
+}
+
+.webLink {
+  color: maroon;
+}
+
+.webLink:hover {
+  text-decoration: underline;
+}
+
+/* contact details*/
+#container3 {
+  display: flex;
+  gap: 80px;
+  padding: 60px 0 30px 180px;
+  font-size: larger;
+  background-color: lightgray;
+  color: #4F2412;
+  line-height: 1.5em;
+}
+
+.contact-item {
+  padding: 10px;
+  
+}
+
+#interest_note {
+  font-weight: bold;
+  padding-bottom: 20px;;
+}
+
+#contact-info {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.form-item {
+  margin: 10px;
+  font-size: large;
+  width: 300px;
+}
+
+#user_message {
+  width: 500px;
+  height: 200px;
+}
+
+.account-link, span {
+  color: #4F2412;
+}
+
+.account-link, span:hover {
+  text-decoration: underline;
+}
+
+#submitButton {
+  margin-bottom: 10px;
+  border-radius: 35px;
+  width: 60px;
+  height: 25px;
+}
+
+#submitButton:hover {
+  background-color: #C9A798;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  padding: 2px 0 2px 0;
+}
+
+/* for ipads screen */
+@media (max-width: 1024px){
+
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ /* bio*/
+ #priya-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+ #right-side {
+    padding-right: 100px;
+  }
+
+  #personal-bio {
+    font-size: 18px;
+  }
+  
+  #personal-description {
+    font-size: 15px;
+  }
+
+  #short-intro {
+    padding: 23px;
+    font-size: 17.5px;
+  }
+   
+
+ /*my work*/
+
+ .proj-img {
+  width: 200px;
+ }
+  #project-container {
+    margin: 0;
+    padding: 20px 0 10px 120px ;
+  }
+
+ /* education*/
+ .logo-img, .edu_div {
+  width: 100px;
+ }
+
+ #educational-background {
+  row-gap: 30px;
+  padding: 0 0 50px 50px;
+  
+ }
+
+ /*contacts*/
+
+  #container3 {
+   margin:0;
+   padding: 10px 0 20px 20px;
+   gap: 20px;
+   font-size: 20px;
+  }
+ 
+ .form-item {
+  margin: 10px;
+  font-size: large;
+  width: 250px;
+ }
+
+ #user_message {
+  width: 250px;
+  height: 150px;
+ }
+}
+
+
+/* for mobile screen */
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+  }
+
+  #short-intro, #foo-website, #download {
+    color: white;
+  }
+
+ /* bio*/
+
+ #container2 {
+  gap: 50px;
+  height: 500px;
+  
+ }
+
+ #priya-pic {
+  width: 130px;
+  height: 130px;
+ }
+
+ #left-side, #right-side {
+  margin: 0;
+  padding: 0;
+ }
+
+ #personal-description {
+  font-size: 10px;
+  
+ }
+
+/*my work*/
+
+.proj-img {
+  width: 100px;
+ }
+  #project-container {
+    margin: 0;
+    padding: 10px 0 5px 60px ;
+  }
+
+ /* education*/
+ #educational-background {
+  row-gap: 50px;
+  padding: 0 0 20px 20px;
+  
+ }
+
+ .logo-img {
+  width: 80px;
+  height: 100px;
+ }
+
+ 
+ .webLink {
+  font-size: 10px;
+ }
+ 
+
+
+ /*contacts*/
+
+ #container3 {
+  margin:0;
+  padding: 5px 0 10px 5px;
+  gap: 5px;
+ }
+
+.form-item {
+ margin: 5px;
+ width: 170px;
+}
+
+#user_message {
+ width: 170px;
+ height: 80px;
+}
+ 
+}
