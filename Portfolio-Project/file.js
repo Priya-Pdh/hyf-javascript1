@@ -61,7 +61,7 @@ let studyDetails = {
   },
   high_school: {
     "name": "Tribhuwan_University",
-    "subject": "High school in Management",
+    "subject": "High School in Management",
     "location": "Butwal_Nepal",
     "year": "2011-2013",
     "uni_logo": "./images/tu-logo.jpeg",
