@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #F9F6F4;
+  --primary-color: #ffff;
   --secondary-color: #C9A798;
 }
 
@@ -140,7 +140,7 @@ a {
 #container2 {
   display: flex;
   gap: 100px;
-  background-color:#E9E0DB;
+  background-color:#F9F6F4;
   padding: 120px 20px 0 90px;
   height: 713px;
 }
@@ -330,7 +330,7 @@ a:-webkit-any-link {
   gap: 80px;
   padding: 60px 0 30px 180px;
   font-size: larger;
-  background-color: lightgray;
+  background-color: ghostwhite;
   color: #4F2412;
   line-height: 1.5em;
 }
