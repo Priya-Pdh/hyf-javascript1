@@ -27,43 +27,39 @@ readMoreButton.addEventListener("click", (e) => {
 
 
 let studyDetails = {
+  technigo: {
+    "name": "Technigo, Sweden(Sep 2023- Dec 2023)",
+    "subject": "Javascript & React Upskill",
+    "uni_logo": "./images/technigo-logo.png",
+    "website": "https://www.technigo.io/"
+  },
   foocoding: {
-    "name": "Foo_Cafe",
+    "name": "Foo_Cafe, Malmö(April 2021- Nov 2021)",
     "subject": "Full_stack_web_development_course",
-    "location": "Malmo_Sweden",
-    "year": "April 2022-present",
     "uni_logo": "./images/fc-logo.png",
     "website": "https://foocafe.org/"
   },
   sfi: {
-    "name": "Folk_Universitetet",
+    "name": "Folk_Universitetet, Helsingborg(2021-2023)",
     "subject": "Swedish_for_Immigrants(SFI)",
-    "location": "Helsingborg_Sweden",
-    "year": "2021-present",
     "uni_logo": "./images/f-logo.jpeg",
     "website": "https://www.folkuniversitetet.se/"
   },
   masters: {
-    "name": "Lund_University",
+    "name": "Lund_University, Helsingborg(2019-2021)",
     "subject": "Masters_in_Service_Management",
-    "location": "Helsingborg_Sweden",
-    "year": "2019-2021",
     "uni_logo": "./images/lu-logo.png",
     "website": "https://www.lunduniversity.lu.se/"
   },
   bachelors: {
-    "name": "Kathmandu_University",
+    "name": "Kathmandu_University, Nepal(2014-2018)",
     "subject": "Bachelors_of_Business_Administration",
-    "location": "Lalitpur_Nepal",
-    "year": "2014-2018",
     "uni_logo": "./images/ku-logo.png",
     "website": "https://ku.edu.np/"
   },
   high_school: {
-    "name": "Tribhuwan_University",
+    "name": "Tribhuwan_University, Nepal(2011-2013)",
     "subject": "High School in Management",
-    "location": "Butwal_Nepal",
-    "year": "2011-2013",
     "uni_logo": "./images/tu-logo.jpeg",
     "website": "http://www.tribhuvan-university.edu.np/"
   }
@@ -88,12 +84,12 @@ function makeHtmlElements() {
     let subjectName = document.createElement("p");
     subjectName.innerText = studyDetails[key].subject.replaceAll("_", " ");
 
-    let locationName = document.createElement("p");
-    locationName.innerText = "Place: " + studyDetails[key].location.replaceAll("_", ", ");
+    // let locationName = document.createElement("p");
+    // locationName.innerText = "Place: " + studyDetails[key].location.replaceAll("_", ", ");
 
-    let yearName = document.createElement("p");
-    yearName.setAttribute("class", "studiedYear")
-    yearName.innerText = "Studied Year: " + studyDetails[key].year;
+    // let yearName = document.createElement("p");
+    // yearName.setAttribute("class", "studiedYear")
+    // yearName.innerText = "Studied Year: " + studyDetails[key].year;
 
     let link = document.createElement("a");
     link.href = `${studyDetails[key].website}`;
@@ -106,8 +102,8 @@ function makeHtmlElements() {
     myDiv.appendChild(logo);
     myDiv.appendChild(universityName);
     myDiv.appendChild(subjectName);
-    myDiv.appendChild(locationName);
-    myDiv.appendChild(yearName);
+    // myDiv.appendChild(locationName);
+    // myDiv.appendChild(yearName);
     myDiv.appendChild(link);
 
    }
